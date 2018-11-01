@@ -2,6 +2,7 @@
 
 body.bkcolor {
     background-color:powderblue;
+	
     }
 
 p.one {
@@ -15,6 +16,7 @@ p.one {
     border-radius: 5px;
     padding: 20px;
     align-content: center;
+    grid-column-gap: 5px; <!-- space between the <div> -->
 }
 
 div.two{
