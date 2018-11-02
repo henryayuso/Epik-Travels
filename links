@@ -1,0 +1,30 @@
+<!-- body with the images --- >
+.one {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+  
+}
+
+body.two{
+	background-image: url("https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+       background-repeat: repeat-X;
+}
+
+<!-- div formatting -->
+.fade{
+	background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+    height: 300px;
+    width: 200px;
+    border;
+    background-image: linear-gradient(to top, rgba(1,22,0,0), rgb(104,204,255)); /* Standard syntax (must be last) */
+    border: 1px solid black;
+    border-radius:10%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+<!-- ------------------ -->
+
+<!-- links for free images -->
+https://www.pexels.com/photo/big-sur-mcway-falls-105518/
+https://www.pexels.com/search/tourism/
