@@ -122,14 +122,14 @@ div.slideBox{
 
 /* Left and right column */
 .column.side {
-    width: 30%;
+    width: 20%;
     height: 250px;
     margin-left:10px;
 }
 
 /* Middle column */
 .column.middle {
-    width: 30%;
+    width: 20%;
     height: 250px;
     margin-left:5%;
 }
