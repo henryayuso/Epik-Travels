@@ -102,7 +102,7 @@ div.slideBox{
 	margin-top: 10px;
 }
 
-//--------- package page css ---------------
+/*--------- package page css --------------- */
 .package{
     background-image: url("gradient_bg.png");
     background-repeat: repeat-x;
@@ -145,7 +145,7 @@ div.slideBox{
 
 
 
-//-------------------------------------
+/* -----------------css mainly for quote page---------------- */
 
 body.bkcolor {
     background-color:powderblue;
