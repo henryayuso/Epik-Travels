@@ -140,7 +140,7 @@ div.slideBox{
     display: table;
     clear: both;
     margin-left: 20px;
-    align: center;
+    float: center;
 }
 
 
