@@ -139,7 +139,8 @@ div.slideBox{
     content: "";
     display: table;
     clear: both;
-    margin-left: 20px;
+    margin-left: 20%;
+	
     float: center;
 }
 
