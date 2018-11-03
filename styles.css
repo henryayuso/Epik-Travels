@@ -55,7 +55,7 @@ div.slideBox{
   padding: 20px;
   font-size: 30px;
 }
-//-------------mainpage box settings-------
+/* -------------mainpage box settings------- */
 .bg_gradient {
     background-image: url("gradient_bg.png");
     background-repeat: repeat-x;
