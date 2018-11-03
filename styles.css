@@ -101,18 +101,50 @@ div.slideBox{
     	margin-left: 20px;
 	margin-top: 10px;
 }
+
+//--------- package page css ---------------
 .package{
     background-image: url("gradient_bg.png");
     background-repeat: repeat-x;
     height: 300px;
     width: 200px;
     border;
-    background-image: linear-gradient(to top, rgba(1,22,0,0), 			  rgb(146,212,255)); /* Standard syntax (must be last) */
+    background-image: linear-gradient(to top, rgba(1,22,0,0), 	rgb(146,212,255)); /* Standard syntax (must be last) */
     border: 1px solid black;
     border-radius:10%;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 30%;
+    height: 250px;
+    margin-left:10px;
+}
+
+/* Middle column */
+.column.middle {
+    width: 30%;
+    height: 250px;
+    margin-left:5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin:5%;
+}
+
+
+
+
 //-------------------------------------
 
 body.bkcolor {
