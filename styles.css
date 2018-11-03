@@ -1,9 +1,11 @@
-
-
 body.bkcolor {
-    background-color:powderblue;
-	
+    <!-- background-color:powderblue; -->
+	background-image: url("https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+       background-repeat: repeat-x;
     }
+
+div.backimage{
+}
 
 p.one {
     border-style: solid;
@@ -16,14 +18,86 @@ p.one {
     border-radius: 5px;
     padding: 20px;
     align-content: center;
-    grid-column-gap: 5px; <!-- space between the <div> -->
 }
-
+    
 div.two{
 	padding: 10px;
 }
 
+div.slideBox{
+	height: 250px;
+	width: 45%;
+	border-radius: 25%;
+	border-width: 2px;
+	border-color: black;
+
+}
+ <!-- mainbody grid layout and color -->
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-containers {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu main main main footer footer';
+  grid-gap: 5px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-containers > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+//-------------mainpage box settings-------
+.bg_gradient {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+  
+}
+
+.bg_bk_img{
+	background-image: url("https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+       background-repeat: repeat-x;
+       
+
+}
+
+/*div formating */
+.square_fade{
+	background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+    height: 300px;
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+    background-image: linear-gradient(to top, rgba(1,22,0,0), rgb(1,2,2)); /* 104,204,255 Standard syntax (must be last) */
+    border: .5px solid black;
+    border-radius:10%;
+
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-family: ans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 10), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wh{
+	color: white;
+	font-style: italic;
+	font-family: sans-serif;
+	background-image: linear-gradient(to top, rgba(1,22,0,0), rgb(1,2,2));
+}
 //-------------------------------------
+
 body.bkcolor {
     background-color:powderblue;
     }
