@@ -221,3 +221,12 @@ svg {
   stroke:black;
   stroke-width:5;
   opacity:"0.5";
+}
+
+<!-- slide show image -->
+slide_image{
+	width:100px;
+	height:300px;
+}
+
+
