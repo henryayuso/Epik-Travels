@@ -204,13 +204,12 @@ li a:hover {
    	
 
 aside { 
-    width="300%";
-     height= 100%;
-     <!-- float: left; -->
+   width="300%";
+   height= 500%;     
    margin: 10px;
    padding: 10px;
-      border: 1px solid black;
-      }
+   border: 10px;
+}
 
 svg {
     width="400" height="180";
